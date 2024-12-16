@@ -312,7 +312,7 @@ namespace Zenject
         void InstallBindings(List<MonoBehaviour> injectableMonoBehaviours)
         {
             _container.Bind(typeof(Context), typeof(SceneContext)).To<SceneContext>().FromInstance(this);
-            _container.BindInterfacesTo<SceneContextRegistryAdderAndRemover>().AsSingle();
+            _container.BindInterfacesAndSelsTo<SceneContextRegistryAdderAndRemover>().AsSingle();
 
             // Add to registry first and remove from registry last
             _container.BindExecutionOrder<SceneContextRegistryAdderAndRemover>(-1);

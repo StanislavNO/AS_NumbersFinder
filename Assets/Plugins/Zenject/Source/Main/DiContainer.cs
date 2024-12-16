@@ -2807,7 +2807,7 @@ namespace Zenject
         //    Container.Bind<IInitializable>().ToSingle<Foo>();
         //
         // Note here that we do not bind Foo to itself.  For that, use BindInterfacesAndSelfTo
-        public FromBinderNonGeneric BindInterfacesTo<T>()
+        public FromBinderNonGeneric BindInterfacesAndSelsTo<T>()
         {
             return BindInterfacesTo(typeof(T));
         }

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104bc559ea9c7f643b4bd490f52ac0c7, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  <Cell>k__BackingField: {fileID: 4165538382851794401, guid: 7d86f36ae0dd3cb43ae705ea596ef25a, type: 3}
+  <Particle>k__BackingField: {fileID: 2009712749389146594, guid: 30c880a0062e33b4e97611ae1f6befaf, type: 3}
+  <LoadingCurtain>k__BackingField: {fileID: 803667874050082443, guid: f5a74468bd8e9fd4886b3690b7560107, type: 3}

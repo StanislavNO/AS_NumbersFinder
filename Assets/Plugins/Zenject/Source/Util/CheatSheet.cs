@@ -41,7 +41,7 @@ namespace Zenject
             // Bind only the interfaces that Foo implements to an instance of Foo
             // This can be useful if you don't want any classes to directly reference the concrete
             // derived type
-            Container.BindInterfacesTo<Foo>().AsSingle();
+            Container.BindInterfacesAndSelsTo<Foo>().AsSingle();
 
             ///////////// FromInstance
 
